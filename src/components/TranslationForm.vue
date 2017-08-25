@@ -1,6 +1,6 @@
 <template>
   <div id="translationForm">
-
+    <p>translationForm component</p>
   </div>
 </template>
 
