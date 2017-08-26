@@ -11,5 +11,15 @@
 <script>
 export default {
   name: 'translationForm',
+  data () {
+    return {
+      textToTranslate: '',
+    }
+  },
+  methods: {
+    formSubmit () {
+      
+    }
+  }
 };
 </script>
