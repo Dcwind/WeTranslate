@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h4>WeTranslate</h4>
-    <TranslationForm></TranslationForm>
+    <TranslationForm @formSubmit="translateText"></TranslationForm>
   </div>
 </template>
 
@@ -13,6 +13,11 @@ export default {
   components: {
     TranslationForm,
   },
+  methods: {
+    translateText() {
+      
+    }
+  }
 };
 </script>
 
