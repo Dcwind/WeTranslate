@@ -18,6 +18,7 @@ export default {
   },
   methods: {
     formSubmit() {
+      this.$emit('formSubmit', this.textToTranslate);
     },
   },
 };
