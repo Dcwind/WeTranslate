@@ -2,6 +2,7 @@
   <div id="app">
     <h4>WeTranslate</h4>
     <TranslationForm @formSubmit="translateText"></TranslationForm>
+    <TranslationOut v-text="translatedText"></TranslationOut>
   </div>
 </template>
 
