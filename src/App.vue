@@ -8,7 +8,7 @@
 
 <script>
 import TranslationForm from './components/TranslationForm';
-import TranslationOut from './components/TranslationOut';
+import TranslationOut from './components/TranslationOutput';
 
 export default {
   name: 'app',
