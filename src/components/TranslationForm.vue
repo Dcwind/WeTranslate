@@ -3,7 +3,7 @@
     <p>translationForm component</p>
     <form @submit.prevent="formSubmit">
       <input type="text" v-model="textToTranslate" placeholder="Enter text to be translated">
-      <select v-model="lang">
+      <select v-model="lang" value="Select language">
         <option value="ru">Russian</option>
         <option value="fr">French</option>
         <option value="zh">Chinese</option>
@@ -23,9 +23,12 @@ export default {
       lang: '',
     };
   },
+  created() {
+    this.lang = 'ru';
+  },
   methods: {
     formSubmit() {
-      this.$emit('formSubmit', this.textToTranslate);
+      this.$emit('formSubmit', this.textToTranslate, this.lang);
     },
   },
 };
