@@ -1,7 +1,7 @@
 <template>
   <div id="translationForm" class="row">
     <div class="col-md-6 col-md-offset-3">
-      <form class="form-control form-inline" @submit.prevent="formSubmit">
+      <form class="form-inline" @submit.prevent="formSubmit">
         <input class="form-control" type="text" v-model="textToTranslate" placeholder="Enter text to be translated">
         <select class="form-control" v-model="lang" value="Select language">
           <option value="ru">Russian</option>
