@@ -1,7 +1,5 @@
 <template>
-  <div id="translationOut">
-    <p>{{translatedText}}</p>
-  </div>
+    <h3>{{translatedText}}</h3>
 </template>
 
 <script>
