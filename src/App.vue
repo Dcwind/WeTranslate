@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="text-center" id="app">
     <h4>WeTranslate</h4>
     <TranslationForm @formSubmit="translateText"></TranslationForm>
     <TranslationOut v-text="translatedText"></TranslationOut>
@@ -31,6 +31,12 @@ export default {
   },
 };
 </script>
+
+<style>
+body {
+  background-color: #fefefe;
+}
+</style>
 
 
 
